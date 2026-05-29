@@ -156,8 +156,8 @@ We believe transparency and open development create better products, stronger co
 * GitHub Organization → https://github.com/nvibesapp
 * LinkedIn (Founder) → https://www.linkedin.com/in/nvibes-ceo
 * YouTube → https://www.youtube.com/@nvibesapp
-* https://x.com/nvibesapp
-* https://www.instagram.com/nvibesapp
+* X → https://x.com/nvibesapp
+* Instagram → https://www.instagram.com/nvibesapp
 
 ---
 
