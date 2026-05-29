@@ -158,6 +158,7 @@ We believe transparency and open development create better products, stronger co
 * YouTube → https://www.youtube.com/@nvibesapp
 * X → https://x.com/nvibesapp
 * Instagram → https://www.instagram.com/nvibesapp
+* Google Developer → https://g.dev/nvibesapp
 
 ---
 
