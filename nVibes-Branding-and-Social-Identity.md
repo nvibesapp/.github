@@ -130,6 +130,7 @@ nVibes maintains a consistent public developer and platform identity across mult
 ### Official Developer Platforms
 
 * Google Developer Profile → https://g.dev/nvibesapp
+* Apple Developer Account → christian.schreiber@nvibes.de
 * GitHub Organization → https://github.com/nvibesapp
 
 ### Official Social Platforms
@@ -175,6 +176,7 @@ We believe transparency and open development create better products, stronger co
 * Website → https://nvibes.de
 * Vision → https://nvibes.de/en/vision
 * Google Developer → https://g.dev/nvibesapp
+* Apple Developer → christian.schreiber@nvibes.de
 * GitHub Organization → https://github.com/nvibesapp
 * LinkedIn (Founder) → https://www.linkedin.com/in/nvibes-ceo
 * YouTube → https://www.youtube.com/@nvibesapp
