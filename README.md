@@ -157,6 +157,7 @@ We believe transparency and open development create better products, stronger co
 * LinkedIn (Founder) → https://www.linkedin.com/in/nvibes-ceo
 * YouTube → https://www.youtube.com/@nvibesapp
 * https://x.com/nvibesapp
+* https://www.instagram.com/nvibesapp
 
 ---
 
