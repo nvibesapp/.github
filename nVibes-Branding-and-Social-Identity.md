@@ -1,356 +1,188 @@
-# nVibes — Branding & Social Identity Documentation
+# nVibes
 
-## Real People. Real Vibes.
+### Real People. Real Vibes.
 
----
+nVibes is a next-generation social platform focused on authentic human connection, real-world experiences and digital sovereignty.
 
-# Overview
+🌍 Website: https://nvibes.de
+🚀 GitHub Organization: https://github.com/nvibesapp
+🧑‍💻 Google Developer Profile: https://g.dev/nvibesapp
 
-This document contains the official branding, founder identity, social media presence and digital platform structure of nVibes.
-
-The goal of this documentation is to maintain long-term consistency across:
-
-* branding
-* communication
-* social media
-* SEO
-* technical identity
-* founder identity
-* future marketing activities
+We believe social media should not optimize for addiction, outrage or artificial engagement loops.
+Instead, nVibes is being built around trust, local communities, meaningful interaction and privacy-first technology.
 
 ---
 
-# Brand Vision
+## Our Vision
 
-nVibes is a human-first social platform focused on:
+The internet connected the world — but disconnected people from each other.
 
-* authentic human connection
-* local communities
-* meaningful real-world interaction
-* digital sovereignty
-* healthier social technology
+nVibes is designed to bring people back into real life.
 
-Core philosophy:
+Whether it’s:
 
-> Technology should bring people together — not isolate them.
+* meeting new people nearby
+* discovering local events
+* joining spontaneous activities
+* building communities
+* sharing authentic moments
+* or simply finding your vibe
 
----
-
-# Official Branding
-
-## Brand Name
-
-```text
-nVibes
-```
+nVibes aims to become a healthier alternative to algorithm-driven social networks.
 
 ---
 
-## Official Claim
+## Core Principles
 
-```text
-Real People. Real Vibes.
-```
+### Human-First Social Design
 
----
+No rage algorithms.
+No engagement manipulation.
+No endless dopamine loops.
 
-## Main Website
+### Digital Sovereignty
 
-🌍 https://nvibes.de
+Users should own their identity, control their data and understand how systems work.
 
-Additional domains:
+### Privacy & Transparency
 
-* https://nvibes.eu
-* https://nvibes.one
-* https://nvibes.online
+Security and transparency are not optional features — they are part of the foundation.
 
-Primary SEO authority:
+### Real-World Interaction
 
-* https://nvibes.de
-
-All other domains should redirect to the primary domain.
+nVibes focuses on connecting people outside the screen, not trapping them inside it.
 
 ---
 
-# Founder Identity
+## Current Development
 
-## Founder
+The platform is actively under development and already includes:
 
-Christian Alexander Schreiber
-
----
-
-## Founder Email
-
-```text
-christian.schreiber@nvibes.de
-```
-
----
-
-## Founder Phone Number
-
-```text
-+49 151 14302306
-```
+* modern React frontend architecture
+* NestJS API infrastructure
+* PostgreSQL + Prisma backend
+* passkey authentication (WebAuthn)
+* protected application dashboard
+* vibe feed system
+* event interaction mechanics
+* multilingual infrastructure
+* profile & account management
+* notification architecture
+* mobile-first responsive UI
+* Azure cloud infrastructure
 
 ---
 
-# Branding Strategy
+## Technology Stack
 
-The branding strategy of nVibes is based on:
+### Frontend
 
-* human-first communication
-* authentic social interaction
-* cinematic emotional atmosphere
-* cyberpunk-inspired visual identity
-* modern technology aesthetics
-* real-world human connection
+* React
+* Vite
+* TailwindCSS
+* React Router
+* i18next
+* Lucide Icons
 
-The visual language combines:
+### Backend
 
-* neon glow elements
-* dark modern UI
-* warm human interaction
-* real people and communities
-* emotional realism
+* NestJS
+* Prisma ORM
+* PostgreSQL
+* JWT Authentication
+* WebAuthn / Passkeys
 
----
+### Infrastructure
 
-# Social Media Structure
-
-## LinkedIn (Founder Identity)
-
-Purpose:
-
-* founder presence
-* professional networking
-* startup visibility
-* long-form vision communication
-
-Profile:
-
-* https://www.linkedin.com/in/nvibes-ceo
-
-Identity:
-
-* Founder-first
-* professional communication
-* human-first philosophy
+* Microsoft Azure
+* Linux / Debian
+* Nginx
+* GitHub Actions (planned)
 
 ---
 
-## X / Twitter (Brand Identity)
+## Security
 
-Purpose:
+Security is deeply integrated into the platform architecture.
 
-* startup visibility
-* developer ecosystem
-* AI & tech discussions
-* build-in-public communication
+nVibes already supports:
 
-Profile:
+* passkey authentication
+* biometric login
+* phishing-resistant authentication flows
+* secure session handling
+* protected API routes
 
-* https://x.com/nvibesapp
-
-Identity:
-
-* brand-first
-* technical & visionary communication
-* concise messaging
+We believe modern authentication should be seamless and secure by default.
 
 ---
 
-## Instagram (Emotional Brand Identity)
+## Trademark
 
-Purpose:
-
-* emotional atmosphere
-* visual storytelling
-* human connection
-* lifestyle & community identity
-
-Profile:
-
-* https://www.instagram.com/nvibesapp
-
-Identity:
-
-* cinematic
-* emotional
-* authentic
-* human-centered
+The trademark **nVibes** has been officially filed in Germany for software, communication services and social networking services.
 
 ---
 
-## YouTube (Media & Vision Platform)
+## Developer Identity
 
-Purpose:
+nVibes maintains a consistent public developer and platform identity across multiple ecosystems.
 
-* long-form storytelling
-* cinematic launch videos
-* development journey
-* future platform showcases
-* community storytelling
+### Official Developer Platforms
 
-Profile:
+* Google Developer Profile → https://g.dev/nvibesapp
+* GitHub Organization → https://github.com/nvibesapp
 
-* https://www.youtube.com/@nvibesapp
+### Official Social Platforms
 
-Identity:
+* LinkedIn → https://www.linkedin.com/in/nvibes-ceo
+* X / Twitter → https://x.com/nvibesapp
+* Instagram → https://www.instagram.com/nvibesapp
+* YouTube → https://www.youtube.com/@nvibesapp
 
-* cinematic
-* futuristic
-* emotionally grounded
-* documentary-style storytelling
+The unified identity `nvibesapp` is used across platforms to maintain long-term branding consistency and developer trust.
 
 ---
 
-## GitHub Organization (Technical Identity)
+## Mission
 
-Purpose:
+We are not trying to build “another social network”.
 
-* technical credibility
-* open development
-* architecture transparency
-* future developer ecosystem
+We are building infrastructure for healthier digital social interaction.
 
-Organization:
-
-* https://github.com/nvibesapp
-
-Identity:
-
-* transparent
-* modern
-* technically credible
-* open architecture mindset
+A place where technology supports human connection instead of replacing it.
 
 ---
 
-# Brand Consistency Rules
+## Status
 
-The following elements should remain consistent across all platforms:
-
-| Element             | Rule                                 |
-| ------------------- | ------------------------------------ |
-| Brand Name          | nVibes                               |
-| Main Website        | https://nvibes.de                    |
-| Claim               | Real People. Real Vibes.             |
-| Visual Style        | Cyberpunk x Human Connection         |
-| Core Message        | Human-first social technology        |
-| Colors              | Neon Pink / Purple / Dark Background |
-| Tone                | Authentic, visionary, calm, modern   |
-| Communication Style | Human-centered & non-corporate       |
+Private development phase.
+Architecture, backend systems and core UX are actively evolving.
 
 ---
 
-# Communication Philosophy
+## Open Development
 
-nVibes intentionally avoids:
+The project is currently being developed openly step by step here on GitHub.
 
-* outrage algorithms
-* rage-based engagement
-* addictive social loops
-* manipulative growth mechanics
-* artificial social pressure
+More repositories, technical documentation and public releases will follow over time.
 
-The platform philosophy is focused on:
-
-* healthy interaction
-* real-world communities
-* transparency
-* meaningful communication
-* digital trust
+We believe transparency and open development create better products, stronger communities and healthier technology.
 
 ---
 
-# Early Platform Status
+## Links
 
-Current status:
-
-* private development phase
-* public brand presence established
-* architecture and UX actively evolving
-
-Current public infrastructure:
-
-* Website
-* GitHub Organization
-* LinkedIn
-* X / Twitter
-* Instagram
-* YouTube
-
----
-
-# Long-Term Vision
-
-nVibes is not intended to become:
-
-* another addictive social media platform
-* an outrage-driven engagement system
-* an algorithmically manipulative ecosystem
-
-The long-term vision is to build:
-
-* healthier digital social infrastructure
-* real-world social discovery
-* authentic community interaction
-* privacy-first communication systems
-* meaningful digital experiences
-
----
-
-# Internal Branding Notes
-
-The nVibes identity should always feel:
-
-* human
-* warm
-* modern
-* technologically advanced
-* emotionally authentic
-* optimistic about the future
-
-The brand should never feel:
-
-* overly corporate
-* aggressive
-* manipulative
-* hype-driven
-* artificial
-
----
-
-# Motto
-
-> Find your people. Live your vibe.
-
----
-
-# Official Links
-
-🌍 Website
-https://nvibes.de
-
-💼 LinkedIn
-https://www.linkedin.com/in/nvibes-ceo
-
-🐦 X / Twitter
-https://x.com/nvibesapp
-
-📸 Instagram
-https://www.instagram.com/nvibesapp
-
-🎥 YouTube
-https://www.youtube.com/@nvibesapp
-
-💻 GitHub
-https://github.com/nvibesapp
+* Website → https://nvibes.de
+* Vision → https://nvibes.de/en/vision
+* Google Developer → https://g.dev/nvibesapp
+* GitHub Organization → https://github.com/nvibesapp
+* LinkedIn (Founder) → https://www.linkedin.com/in/nvibes-ceo
+* YouTube → https://www.youtube.com/@nvibesapp
+* X → https://x.com/nvibesapp
+* Instagram → https://www.instagram.com/nvibesapp
 
 ---
 
 ### nVibes
 
-Real People. Real Vibes.
+**Find your people. Live your vibe.**
