@@ -1,0 +1,63 @@
+name: Security Concern
+description: Melde ein Sicherheits-, Datenschutz- oder Trust-&-Safety-Thema ohne sensible Details.
+title: "security: "
+labels:
+  - type:security
+  - status:needs-analysis
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bitte keine Exploit-Details, Secrets, Tokens, personenbezogenen Daten oder produktiven Zugangsdaten eintragen. Bei kritischen Sicherheitsluecken sollte die Meldung zunaechst privat erfolgen.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Kategorie
+      options:
+        - Authentifizierung / Login / Passkeys / MFA
+        - Autorisierung / Rollen / Admin
+        - Datenschutz / personenbezogene Daten
+        - Chat / Nachrichten / Medien
+        - Standort / Nearby / MeetNow
+        - Upload / Storage
+        - Infrastruktur / Deployment
+        - Dependency / Supply Chain
+        - Logging / Monitoring
+        - Sonstiges
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Einschaetzung
+      options:
+        - P0 - kritisch, moeglicher aktiver Missbrauch
+        - P1 - hoch, sicherheitsrelevant
+        - P2 - mittel, sollte geprueft werden
+        - P3 - niedrig, Verbesserung / Hardening
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Zusammenfassung ohne sensible Details
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Moegliche Auswirkung
+      description: Welche Nutzer, Daten oder Systeme koennten betroffen sein?
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Vorschlag / Beobachtung
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sicherheitscheck
+      options:
+        - label: Ich habe keine Secrets, Tokens, Passwoerter, privaten Schluessel oder personenbezogenen Daten eingefuegt.
+          required: true
+        - label: Ich habe keine verwertbaren Exploit-Schritte fuer oeffentliche Sichtbarkeit eingefuegt.
+          required: true
