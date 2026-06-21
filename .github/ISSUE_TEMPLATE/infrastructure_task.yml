@@ -1,0 +1,66 @@
+name: Infrastructure Task
+description: Plane eine Azure-, Deployment-, Nginx-, VMSS-, DB-, AI- oder Operations-Aufgabe.
+title: "infra: "
+labels:
+  - type:infra
+  - status:needs-analysis
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Infrastructure ist produktionsnah. Bitte Risiken, Rollback und Sicherheitsauswirkungen klar benennen.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Ziel
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      options:
+        - Azure / Netzwerk / VM
+        - Frontend VMSS
+        - API VM
+        - DB VM
+        - AI VM / Ollama / private DNS
+        - Nginx / TLS / Cloudflare
+        - GitHub Actions / Deployment
+        - Disaster Recovery / Backup / Restore
+        - Monitoring / Logging
+        - Sonstiges
+    validations:
+      required: true
+  - type: textarea
+    id: current_state
+    attributes:
+      label: Aktueller Stand
+  - type: textarea
+    id: proposed_change
+    attributes:
+      label: Vorgeschlagene Aenderung
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risiken
+      description: Kosten, Downtime, Security, Datenverlust, Rollback, manuelle Schritte.
+    validations:
+      required: true
+  - type: textarea
+    id: rollback
+    attributes:
+      label: Rollback / Wiederherstellung
+    validations:
+      required: true
+  - type: checkboxes
+    id: approvals
+    attributes:
+      label: Freigaben
+      options:
+        - label: Keine produktive Aenderung ohne explizite menschliche Freigabe.
+          required: true
+        - label: Keine Secrets oder privaten Schluessel im Issue.
+          required: true
