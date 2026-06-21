@@ -1,0 +1,82 @@
+name: Bug Report
+description: Melde einen reproduzierbaren Fehler in nVibes.
+title: "bug: "
+labels:
+  - type:bug
+  - status:needs-analysis
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fuer den Report. Bitte beschreibe den Fehler so konkret wie moeglich.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      options:
+        - App / Frontend
+        - Api / Backend
+        - Feature-Request / Dokumentation
+        - Infrastructure / Deployment
+        - .github / Governance
+        - Unklar
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Zusammenfassung
+      description: Was ist passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Beschreibe die Schritte, mit denen der Fehler reproduziert werden kann.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Tatsaechliches Verhalten
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Schweregrad
+      options:
+        - P0 - blockiert Produktion / kritische Sicherheit
+        - P1 - wichtig / Nutzerfluss stark betroffen
+        - P2 - normal / Workaround moeglich
+        - P3 - klein / kosmetisch
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Umgebung
+      placeholder: Browser, Geraet, OS, URL, Branch, Commit, API/App-Version
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs oder Screenshots
+      description: Keine Secrets oder personenbezogenen Daten einfuegen.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Sicherheitscheck
+      options:
+        - label: Ich habe keine Secrets, Tokens, Passwoerter oder privaten Daten eingefuegt.
+          required: true
