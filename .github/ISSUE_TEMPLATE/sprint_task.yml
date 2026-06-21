@@ -1,0 +1,58 @@
+name: Sprint Task
+description: Lege eine konkrete, sprintfaehige Aufgabe an.
+title: "task: "
+labels:
+  - type:sprint-task
+  - status:ready
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Ziel
+      description: Was soll in diesem Task erreicht werden?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      options:
+        - App / Frontend
+        - Api / Backend
+        - Feature-Request / Dokumentation
+        - Infrastructure / Deployment
+        - .github / Governance
+        - Cross-Repository
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Akzeptanzkriterien
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: technical_tasks
+    attributes:
+      label: Technische Tasks
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risiken / Abhaengigkeiten
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of Done
+      options:
+        - label: Akzeptanzkriterien sind erfuellt.
+          required: true
+        - label: Tests oder Validierung sind dokumentiert.
+          required: true
+        - label: Security-, Datenschutz-, DB- und Deployment-Auswirkungen sind bewertet.
+          required: true
