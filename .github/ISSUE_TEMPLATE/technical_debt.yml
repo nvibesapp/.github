@@ -1,0 +1,61 @@
+name: Technical Debt
+description: Dokumentiere technische Schulden, Refactoring-Bedarf oder Wartbarkeitsprobleme.
+title: "tech-debt: "
+labels:
+  - type:tech-debt
+  - status:needs-analysis
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Kontext
+      description: Wo tritt die technische Schuld auf?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      options:
+        - App / Frontend
+        - Api / Backend
+        - Prisma / Datenbank
+        - Infrastructure / Deployment
+        - Documentation / Governance
+        - Testing / CI
+        - Security / Privacy
+        - Sonstiges
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Auswirkung
+      description: Wartbarkeit, Fehleranfälligkeit, Performance, Security, Onboarding, Deployment.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Vorschlag
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Dringlichkeit
+      options:
+        - P1 - sollte kurzfristig eingeplant werden
+        - P2 - mittelfristig einplanen
+        - P3 - langfristig beobachten
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Grenzen
+      options:
+        - label: Kein breites Refactoring ohne Roadmap oder Sprintplanung.
+          required: true
