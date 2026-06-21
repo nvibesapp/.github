@@ -1,0 +1,69 @@
+name: Feature Request
+description: Schlage eine neue nVibes-Funktion oder Produkterweiterung vor.
+title: "feat: "
+labels:
+  - type:feature
+  - status:needs-analysis
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bitte beschreibe den Nutzerwert und den nVibes-Kontext. nVibes optimiert auf echte Begegnungen, Vertrauen und digitale Souveraenitaet.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Nutzerbeduerfnis
+      description: Welches Problem soll geloest werden?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Vorgeschlagene Loesung
+      description: Wie koennte die Funktion aussehen?
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Nutzerwert und nVibes-Mehrwert
+      description: Wie hilft das echten Begegnungen, Trust, Safety oder Community?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Primaerer Bereich
+      options:
+        - App / Frontend
+        - Api / Backend
+        - Local Inspiration / Nearby / Inspire
+        - Chat / Groups
+        - Trust & Safety
+        - Badges / Challenges
+        - Infrastructure
+        - Documentation / Governance
+        - Unklar
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Erste Akzeptanzkriterien
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risiken / offene Fragen
+      description: Datenschutz, Safety, Missbrauch, technische Komplexitaet, Deployment, DB etc.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope Check
+      options:
+        - label: Das Feature optimiert nicht auf reine Bildschirmzeit oder Engagement-Manipulation.
+          required: true
+        - label: Datenschutz und Trust-&-Safety wurden zumindest grob bedacht.
+          required: true
